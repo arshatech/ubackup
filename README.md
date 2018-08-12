@@ -12,7 +12,26 @@ When you run the script it starts making an archive from users data in given pat
        [*] Usage:   bash backup-users.sh <backup-path>
            Example: bash backup-users.sh /backup
 
-### Dependencies:
+### Log View:
+[root@arshatech ~]# cat /var/log/users/2018-08-03.log
+
+                 Running Date: 2018-08-07-AT-05:54
+       #####################################################
+       [+] /backup/2018-08-07/alex-2018-08-07-AT-05_54_42.tar.gz
+       [+] /backup/2018-08-07/bob-2018-08-07-AT-05_54_42.tar.gz
+       [+] /backup/2018-08-07/gerard-2018-08-07-AT-05_54_42.tar.gz
+       [+] /backup/2018-08-07/john-2018-08-07-AT-05_54_42.tar.gz
+
+
+                 Running Date: 2018-08-07-AT-05:56
+       #####################################################
+       [+] /backup/2018-08-07/alex-2018-08-07-AT-05_56_55.tar.gz
+       [+] /backup/2018-08-07/bob-2018-08-07-AT-05_56_55.tar.gz
+       [+] /backup/2018-08-07/gerard-2018-08-07-AT-05_56_55.tar.gz
+       [+] /backup/2018-08-07/john-2018-08-07-AT-05_56_55.tar.gz
+       
+       
+### Requirement:
 Linux OS
 
 ### Update:
